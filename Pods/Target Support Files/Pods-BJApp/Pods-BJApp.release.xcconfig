@@ -1,0 +1,8 @@
+EMBEDDED_CONTENT_CONTAINS_SWIFT = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$CONFIGURATION_BUILD_DIR/Alamofire" "$CONFIGURATION_BUILD_DIR/MBProgressHUD" "$CONFIGURATION_BUILD_DIR/RQShineLabel" "$CONFIGURATION_BUILD_DIR/SDWebImage" "$CONFIGURATION_BUILD_DIR/TYAttributedLabel"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "$CONFIGURATION_BUILD_DIR/Alamofire/Alamofire.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/MBProgressHUD/MBProgressHUD.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/RQShineLabel/RQShineLabel.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/SDWebImage/SDWebImage.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/TYAttributedLabel/TYAttributedLabel.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "Alamofire" -framework "MBProgressHUD" -framework "RQShineLabel" -framework "SDWebImage" -framework "TYAttributedLabel"
+OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
+PODS_ROOT = ${SRCROOT}/Pods

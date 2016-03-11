@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+use_frameworks!
+inhibit_all_warnings!
+target 'BJApp' do
+pod 'Alamofire', '~> 3.0'
+pod 'SDWebImage', '~> 3.7.5'
+pod 'MBProgressHUD', '~> 0.9.2'
+pod 'TYAttributedLabel', '~> 2.5.6'
+pod "RQShineLabel"
+
+
+end

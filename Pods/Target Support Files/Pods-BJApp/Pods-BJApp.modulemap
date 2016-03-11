@@ -1,0 +1,6 @@
+framework module Pods_BJApp {
+  umbrella header "Pods-BJApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
